@@ -13,7 +13,7 @@ import DetailsComponent from './js/details'
 export default class App extends Component {
   render() {
     return (<NavigatorIOS style={styles.container} initialRoute={{
-      title: '主页面1',
+      title: '主页面',
       component: MainComponent,
       passProps: {
         id: 123456
