@@ -45,7 +45,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNProjectTests.m; sourceTree = "<group>"; };
 		0FC65458F820D52AC97EAD45 /* libPods-RNProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11DEC34649474C3922D597C7 /* Pods-RNProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject/Pods-RNProject.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNProject/AppDelegate.m; sourceTree = "<group>"; };
@@ -56,25 +55,18 @@
 		1792112ADBEFCEE0916DCA13 /* Pods-RNProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject.release.xcconfig"; path = "Target Support Files/Pods-RNProject/Pods-RNProject.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3122759F5C9F3FB3D9E663D3 /* Pods-RNProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNProjectTests/Pods-RNProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4787A4EBA497786D5AB2C915 /* libPods-RNProject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EF73594B0F6BEEAE942A609 /* Pods-RNProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject/Pods-RNProject.release.xcconfig"; sourceTree = "<group>"; };
 		5777CFDF1706CBAA9998482B /* Pods-RNProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNProject-tvOSTests/Pods-RNProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D5FB8DB99D5CA65D7277F06 /* Pods-RNProject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNProject-tvOS/Pods-RNProject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6399836A1D875B4F34E3CCFF /* Pods-RNProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject.debug.xcconfig"; path = "Target Support Files/Pods-RNProject/Pods-RNProject.debug.xcconfig"; sourceTree = "<group>"; };
 		67DA392EF573E7F59073B8BB /* Pods-RNProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNProject-tvOS/Pods-RNProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		69C3DD18EE20F362AB44C80D /* libPods-RNProject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		742047F7CF8CF8BC9C275B78 /* Pods-RNProject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject-tvOS/Pods-RNProject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7CC40AD0160C50A64CDF3603 /* libPods-RNProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD968FE869331712073ECF7 /* Pods-RNProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject-tvOSTests/Pods-RNProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83C808EC07D71A9040AABA4A /* Pods-RNProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectTests.release.xcconfig"; path = "Target Support Files/Pods-RNProjectTests/Pods-RNProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		C18670D096905BC054471E00 /* Pods-RNProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNProjectTests/Pods-RNProjectTests.release.xcconfig"; sourceTree = "<group>"; };
-		CA1590269AFA086DFC71CFB9 /* Pods-RNProject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject-tvOSTests/Pods-RNProject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE8801AD98728D585AE1AE6F /* Pods-RNProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-RNProjectTests/Pods-RNProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0381274110C86463C1D4AB0 /* Pods-RNProject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNProject-tvOSTests/Pods-RNProject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F5CBDBC928B56463795526C5 /* Pods-RNProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNProject-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNProject-tvOS/Pods-RNProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,14 +160,6 @@
 				D0381274110C86463C1D4AB0 /* Pods-RNProject-tvOSTests.release.xcconfig */,
 				CE8801AD98728D585AE1AE6F /* Pods-RNProjectTests.debug.xcconfig */,
 				83C808EC07D71A9040AABA4A /* Pods-RNProjectTests.release.xcconfig */,
-				11DEC34649474C3922D597C7 /* Pods-RNProject.debug.xcconfig */,
-				4EF73594B0F6BEEAE942A609 /* Pods-RNProject.release.xcconfig */,
-				742047F7CF8CF8BC9C275B78 /* Pods-RNProject-tvOS.debug.xcconfig */,
-				F5CBDBC928B56463795526C5 /* Pods-RNProject-tvOS.release.xcconfig */,
-				7DD968FE869331712073ECF7 /* Pods-RNProject-tvOSTests.debug.xcconfig */,
-				CA1590269AFA086DFC71CFB9 /* Pods-RNProject-tvOSTests.release.xcconfig */,
-				3122759F5C9F3FB3D9E663D3 /* Pods-RNProjectTests.debug.xcconfig */,
-				C18670D096905BC054471E00 /* Pods-RNProjectTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;

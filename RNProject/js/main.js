@@ -9,7 +9,7 @@ import React, {Component} from 'react'
 import {StyleSheet, NavigatorIOS, View, Text} from 'react-native'
 import DetailsComponent from "./details"
 
-export default class MainComponent extends Component {
+class MainComponent extends Component {
 
   render() {
     return (
@@ -42,3 +42,5 @@ const styles = StyleSheet.create({
     margin: 10
   }
 });
+
+module.exports = MainComponent
