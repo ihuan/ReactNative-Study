@@ -6,25 +6,57 @@
  */
 
 import React, {Component} from 'react'
-import {StyleSheet, NavigatorIOS} from 'react-native'
-import MainComponent from './js/main'
-import DetailsComponent from './js/details'
+import {StyleSheet, View, Text} from 'react-native'
 
 export default class App extends Component {
   render() {
-    return (<NavigatorIOS style={styles.container} initialRoute={{
-      title: '主页面1',
-      component: MainComponent,
-      passProps: {
-        id: 123456
-      }
-    }}
-      tintColor="#008888"/>);
+    return (
+      <View style={styles.container}>
+                <Text style={{textAlign: 'left'}}>
+                    居左对齐
+                    <Text style={styles.textBlue}>
+                        自定义文字的样式
+                    </Text>
+                </Text>
+
+                <View>
+                    <Text>嵌套在 View 中的第一行文字</Text>
+                    <Text>嵌套在 View 中的第二行文字</Text>
+                </View>
+
+                <Text>
+                    <Text>嵌套在 View 中的第一行文字</Text>
+                    <Text>嵌套在 View 中的第二行文字</Text>
+                </Text>
+            </View>
+    );
+  }
+}
+
+class TopLevelText extends Component {
+  render() {
+    return (
+      <Text style={styles.textBlue}>
+          自定义文字的样式
+        </Text>
+    )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    marginTop: 150
+  },
+  textBlue: {
+    backgroundColor: 'red',
+    textDecorationLine: 'underline',
+    color: 'blue',
+    fontSize: 20,
+    textShadowOffset: {width: 2, height: 2},
+    textShadowRadius: 1,
+    textShadowColor: '#00cccc'
   }
 });
+
+

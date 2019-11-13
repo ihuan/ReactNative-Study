@@ -5,8 +5,8 @@
  * @Parry
  */
 
-import React, {Component} from 'react';
-import {StyleSheet, NavigatorIOS, View, Text} from 'react-native';
+import React, {Component} from 'react'
+import {StyleSheet, NavigatorIOS, View, Text} from 'react-native'
 
 class DetailsComponent extends Component {
     render() {
